@@ -28,7 +28,7 @@ export const HeroStats = () => {
                         {summary?.heroCount} Heroes
                     </Badge>
                     <Badge variant="destructive" className="text-xs">
-                        {summary?.villainCount} Villains
+                        {summary?.villainCount} Villanos
                     </Badge>
                 </div>
             </HeroStatCard>
@@ -38,7 +38,7 @@ export const HeroStats = () => {
                 icon={<Heart className="h-4 w-4 text-muted-foreground" />}
             >
                 <div className="text-2xl font-bold text-red-600">{favoriteCount}</div>
-                <p className="text-xs text-muted-foreground">{((favoriteCount / summary.totalHeroes) *100).toFixed(2)}% of total</p>
+                <p className="text-xs text-muted-foreground">{((favoriteCount / summary.totalHeroes) *100).toFixed(2)}% del total</p>
             </HeroStatCard>
 
             <HeroStatCard
@@ -46,7 +46,7 @@ export const HeroStats = () => {
                 icon={<Zap className="h-4 w-4 text-muted-foreground" />}
             >
                 <div className="text-lg font-bold">{summary?.strongestHero.alias}</div>
-                <p className="text-xs text-muted-foreground">Strength: {summary?.strongestHero.strength}/10</p>
+                <p className="text-xs text-muted-foreground">Fuerza: {summary?.strongestHero.strength}/10</p>
             </HeroStatCard>
 
             <HeroStatCard
@@ -54,7 +54,7 @@ export const HeroStats = () => {
                 icon={<Trophy className="h-4 w-4 text-muted-foreground" />}
             >
                 <div className="text-lg font-bold">{summary?.smartestHero.alias}</div>
-                <p className="text-xs text-muted-foreground">Intelligence: {summary?.smartestHero.intelligence}/10</p>
+                <p className="text-xs text-muted-foreground">Inteligencia: {summary?.smartestHero.intelligence}/10</p>
             </HeroStatCard>
 
         </div>

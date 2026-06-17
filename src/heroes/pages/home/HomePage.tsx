@@ -84,7 +84,6 @@ export const HomePage = () => {
 
           <TabsContent value="all">
             {/* Mostrar todos los personajes */}
-            <h1>Todos los personajes</h1>
             <HeroGrid heroes={heroesResponse?.heroes ?? []} />
           </TabsContent>
 
@@ -95,13 +94,11 @@ export const HomePage = () => {
 
           <TabsContent value="heroes">
             {/* Mostrar todos los personajes heroes*/}
-            <h1>Heroes</h1>
             <HeroGrid heroes={heroesResponse?.heroes ?? []} />
           </TabsContent>
 
           <TabsContent value="villains">
             {/* Mostrar todos los personajes villanos*/}
-            <h1>Villanos</h1>
             <HeroGrid heroes={heroesResponse?.heroes ?? []} />
           </TabsContent>
         </Tabs>

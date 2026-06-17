@@ -16,12 +16,12 @@ export const SearchControl = () => {
                 <div className="flex gap-2">
                     <Button variant="outline" className="h-12 bg-transparent">
                         <Filter className="h-4 w-4 mr-2" />
-                        Filters
+                        Filtros
                     </Button>
 
                     <Button variant="outline" className="h-12 bg-transparent">
                         <SortAsc className="h-4 w-4 mr-2" />
-                        Sort by Name
+                        Ordenar por nombre
                     </Button>
 
                     <Button variant="outline" className="h-12 bg-transparent">
@@ -30,7 +30,7 @@ export const SearchControl = () => {
 
                     <Button className="h-12">
                         <Plus className="h-4 w-4 mr-2" />
-                        Add Character
+                        Agregar Personaje
                     </Button>
                 </div>
             </div>
@@ -39,37 +39,37 @@ export const SearchControl = () => {
 
             <div className="bg-white rounded-lg p-6 mb-8 shadow-sm border">
                 <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-lg font-semibold">Advanced Filters</h3>
-                    <Button variant="ghost">Clear All</Button>
+                    <h3 className="text-lg font-semibold">Filtros Avanzados</h3>
+                    <Button variant="ghost">Limpiar Todo</Button>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div className="space-y-2">
-                        <label className="text-sm font-medium">Team</label>
+                        <label className="text-sm font-medium">Equipo</label>
                         <div className="h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
-                            All teams
+                            Todos los equipos
                         </div>
                     </div>
                     <div className="space-y-2">
-                        <label className="text-sm font-medium">Category</label>
+                        <label className="text-sm font-medium">Categoria</label>
                         <div className="h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
-                            All categories
+                            Todas las categorias
                         </div>
                     </div>
                     <div className="space-y-2">
-                        <label className="text-sm font-medium">Universe</label>
+                        <label className="text-sm font-medium">Universo</label>
                         <div className="h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
-                            All universes
+                            Todos los universos
                         </div>
                     </div>
                     <div className="space-y-2">
-                        <label className="text-sm font-medium">Status</label>
+                        <label className="text-sm font-medium">Estado</label>
                         <div className="h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm">
-                            All statuses
+                            Todos los estados
                         </div>
                     </div>
                 </div>
                 <div className="mt-4">
-                    <label className="text-sm font-medium">Minimum Strength: 0/10</label>
+                    <label className="text-sm font-medium">Minimo de fuerza: 0/10</label>
                     <div className="relative flex w-full touch-none select-none items-center mt-2">
                         <div className="relative h-2 w-full grow overflow-hidden rounded-full bg-secondary">
                             <div className="absolute h-full bg-primary" style={{ width: "0%" }} />
