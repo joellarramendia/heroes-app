@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react'
 import { MemoryRouter } from 'react-router'
-import { describe, test, expect, vi } from 'vitest'
+import { describe, test, expect, } from 'vitest'
 import { SearchControl } from './SearchControl'
 
 if (typeof window.ResizeObserver === 'undefined') {
